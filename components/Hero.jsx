@@ -27,15 +27,15 @@ const Hero = () => {
                         target="_blank"
                         href="https://www.linkedin.com/in/rohitghosh07/"
                     >
-                        <span class="flex items-center transition-transform transition-color duration-300 transform hover:scale-110 cursor-pointer">
+                        <span className="flex items-center transition-transform transition-color duration-300 transform hover:scale-110 cursor-pointer">
                             <svg
-                                class="mr-2.5 h-5 w-5 flex-none stroke-slate-200"
+                                className="mr-2.5 h-5 w-5 flex-none stroke-slate-200"
                                 xmlns="http://www.w3.org/2000/svg"
-                                shape-rendering="geometricPrecision"
-                                text-rendering="geometricPrecision"
-                                image-rendering="optimizeQuality"
-                                fill-rule="evenodd"
-                                clip-rule="evenodd"
+                                shapeRendering="geometricPrecision"
+                                textRendering="geometricPrecision"
+                                imageRendering="optimizeQuality"
+                                fillRule="evenodd"
+                                clipRule="evenodd"
                                 viewBox="0 0 512 509.64"
                             >
                                 <rect width="512" height="509.64" rx="115.61" ry="115.61" />
@@ -44,8 +44,8 @@ const Hero = () => {
                                     d="M204.97 197.54h64.69v33.16h.94c9.01-16.16 31.04-33.16 63.89-33.16 68.31 0 80.94 42.51 80.94 97.81v116.92h-67.46l-.01-104.13c0-23.81-.49-54.45-35.08-54.45-35.12 0-40.51 25.91-40.51 52.72v105.86h-67.4V197.54zm-38.23-65.09c0 19.36-15.72 35.08-35.08 35.08-19.37 0-35.09-15.72-35.09-35.08 0-19.37 15.72-35.08 35.09-35.08 19.36 0 35.08 15.71 35.08 35.08zm-70.17 65.09h70.17v214.73H96.57V197.54z"
                                 />
                             </svg>
-                            <span class="">LinkedIn</span>
-                            <span aria-hidden="true" class="hidden text-slate-400 sm:inline ml-1 transition-opacity duration-300 opacity-0 group-hover:opacity-100">→</span>
+                            <span className="">LinkedIn</span>
+                            <span aria-hidden="true" className="hidden text-slate-400 sm:inline ml-1 transition-opacity duration-300 opacity-0 group-hover:opacity-100">→</span>
                         </span>
 
 
@@ -54,12 +54,12 @@ const Hero = () => {
                         className="inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-slate-200 hover:bg-white/25 hover:ring-slate-900/15 "
                         href="https://github.com/RohitGhosh07" target="_blank"
                     >
-                        <div class="inline-flex items-center transition-transform transition-color duration-300 transform  hover:scale-110 cursor-pointer">
-                            <svg class="mr-2.5 h-5 w-5 flex-none stroke-slate-600 " xmlns="http://www.w3.org/2000/svg" width="64" height="64" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 640 640">
+                        <div className="inline-flex items-center transition-transform transition-color duration-300 transform  hover:scale-110 cursor-pointer">
+                            <svg className="mr-2.5 h-5 w-5 flex-none stroke-slate-600 " xmlns="http://www.w3.org/2000/svg" width="64" height="64" shapeRendering="geometricPrecision" textRendering="geometricPrecision" imageRendering="optimizeQuality" fillRule="evenodd" clipRule="evenodd" viewBox="0 0 640 640">
                                 <path d="M319.988 7.973C143.293 7.973 0 151.242 0 327.96c0 141.392 91.678 261.298 218.826 303.63 16.004 2.964 21.886-6.957 21.886-15.414 0-7.63-.319-32.835-.449-59.552-89.032 19.359-107.8-37.772-107.8-37.772-14.552-36.993-35.529-46.831-35.529-46.831-29.032-19.879 2.209-19.442 2.209-19.442 32.126 2.245 49.04 32.954 49.04 32.954 28.56 48.922 74.883 34.76 93.131 26.598 2.882-20.681 11.15-34.807 20.315-42.803-71.08-8.067-145.797-35.516-145.797-158.14 0-34.926 12.52-63.485 32.965-85.88-3.33-8.078-14.291-40.606 3.083-84.674 0 0 26.87-8.61 88.029 32.8 25.512-7.075 52.878-10.642 80.056-10.76 27.2.118 54.614 3.673 80.162 10.76 61.076-41.386 87.922-32.8 87.922-32.8 17.398 44.08 6.485 76.631 3.154 84.675 20.516 22.394 32.93 50.953 32.93 85.879 0 122.907-74.883 149.93-146.117 157.856 11.481 9.921 21.733 29.398 21.733 59.233 0 42.792-.366 77.28-.366 87.804 0 8.516 5.764 18.473 21.992 15.354 127.076-42.354 218.637-162.274 218.637-303.582 0-176.695-143.269-319.988-320-319.988l-.023.107z" />
                             </svg>
-                            <span class="text-black">Github</span>
-                            <span aria-hidden="true" class="hidden text-black/25 sm:inline">→</span>
+                            <span className="text-black">Github</span>
+                            <span aria-hidden="true" className="hidden text-black/25 sm:inline">→</span>
                         </div>
 
 
@@ -79,14 +79,14 @@ const Hero = () => {
                                 <div>
                                     <div className="p-4">
                                         <div className="ml-auto pointer-events-auto h-10 w-10 rounded-full p-1   ">
-                                            <svg className="fill-sky-500" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-backpack" viewBox="0 0 16 16">
+                                            <svg className="fill-sky-500" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-backpack" viewBox="0 0 16 16">
                                                 <path d="M4.04 7.43a4 4 0 0 1 7.92 0 .5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14ZM4 9.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-4Zm1 .5v3h6v-3h-1v.5a.5.5 0 0 1-1 0V10H5Z" />
                                                 <path d="M6 2.341V2a2 2 0 1 1 4 0v.341c2.33.824 4 3.047 4 5.659v5.5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5V8a6.002 6.002 0 0 1 4-5.659ZM7 2v.083a6.04 6.04 0 0 1 2 0V2a1 1 0 0 0-2 0Zm1 1a5 5 0 0 0-5 5v5.5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5V8a5 5 0 0 0-5-5Z" />
                                             </svg>
                                         </div>
                                         <div className="mt-8 flex items-center justify-end">
                                             <div className="pointer-events-auto h-10 w-10 rounded-full p-1   ">
-                                                <svg className="fill-sky-500 animate-pulse" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cloud-rain-fill" viewBox="0 0 16 16">
+                                                <svg className="fill-sky-500 animate-pulse" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-cloud-rain-fill" viewBox="0 0 16 16">
                                                     <path d="M4.158 12.025a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm3 0a.5.5 0 0 1 .316.633l-1 3a.5.5 0 1 1-.948-.316l1-3a.5.5 0 0 1 .632-.317zm3 0a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm3 0a.5.5 0 0 1 .316.633l-1 3a.5.5 0 1 1-.948-.316l1-3a.5.5 0 0 1 .632-.317zm.247-6.998a5.001 5.001 0 0 0-9.499-1.004A3.5 3.5 0 1 0 3.5 11H13a3 3 0 0 0 .405-5.973z" />
                                                 </svg>
                                             </div>
@@ -147,9 +147,9 @@ const Hero = () => {
                                         <path
                                             d="M3 15.75h.75V21"
                                             stroke="#64748B"
-                                            stroke-width="1.5"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
+                                            strokeWidth="1.5"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
                                         ></path>
                                         <path
                                             d="M9 16.5A.75.75 0 0 0 9 15v1.5Zm-2.25-.75V15a.75.75 0 0 0-.75.75h.75Zm0 2.25H6c0 .414.336.75.75.75V18Zm0 2.25a.75.75 0 0 0 0 1.5v-1.5ZM9 15H6.75v1.5H9V15Zm-3 .75V18h1.5v-2.25H6Zm.75 3h1.5v-1.5h-1.5v1.5Zm1.5 1.5h-1.5v1.5h1.5v-1.5ZM9 19.5a.75.75 0 0 1-.75.75v1.5a2.25 2.25 0 0 0 2.25-2.25H9Zm-.75-.75a.75.75 0 0 1 .75.75h1.5a2.25 2.25 0 0 0-2.25-2.25v1.5Z"
@@ -159,8 +159,8 @@ const Hero = () => {
                                     <svg className="h-10 w-10 flex-none" fill="none">
                                         <circle cx="20" cy="20" r="20" fill="#0F172A"></circle>
                                         <path
-                                            fill-rule="evenodd"
-                                            clip-rule="evenodd"
+                                            fillRule="evenodd"
+                                            clipRule="evenodd"
                                             d="M13.5 13.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L16.28 27.99c-1.25.687-2.779-.217-2.779-1.643V13.653Z"
                                             fill="#fff"
                                         ></path>
@@ -184,16 +184,16 @@ const Hero = () => {
                                             d="M14 5 9 9H6a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h3l5 4V5Z"
                                             fill="#64748B"
                                             stroke="#64748B"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
                                         ></path>
                                         <path
                                             d="M19 12c0-1.5-1-2-1-2v4s1-.5 1-2Z"
                                             stroke="#64748B"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
                                         ></path>
                                     </svg>
                                     <svg className="ml-6 h-6 w-6 flex-none" fill="none">

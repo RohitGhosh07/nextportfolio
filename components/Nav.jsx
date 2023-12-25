@@ -19,9 +19,9 @@ const Nav = () => {
                 >
                     <svg className="h-4 w-4 fill-sky-500" viewBox="0 0 24 24">
                         <path
-                            fill-rule="evenodd"
+                            fillRule="evenodd"
                             d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
-                            clip-rule="evenodd"
+                            clipRule="evenodd"
                         ></path>
                     </svg>
                     <span className="font-semibold">this </span>
@@ -42,8 +42,8 @@ const Nav = () => {
                     <svg
                         viewBox="0 0 5 8"
                         className="h-2 w-[5px] fill-black/30 group-hover:fill-black/60"
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
                         aria-hidden="true"
                     >
                         <path d="M.2.24A.75.75 0 0 1 1.26.2l3.5 3.25a.75.75 0 0 1 0 1.1L1.26 7.8A.75.75 0 0 1 .24 6.7L3.148 4 .24 1.3A.75.75 0 0 1 .2.24Z"></path>
@@ -82,8 +82,8 @@ const Nav = () => {
                         <path
                             d="M3.75 12h16.5M3.75 6.75h16.5M3.75 17.25h16.5"
                             fill="none"
-                            stroke-width="1.5"
-                            stroke-linecap="round"
+                            strokeWidth="1.5"
+                            strokeLinecap="round"
                         ></path>
                     </svg>
                 </button>
@@ -91,11 +91,11 @@ const Nav = () => {
                     <a className=" transition duration-300 ease-in-out hover:text-blue-500" href="#contact">Contact </a>
                     <button
                         className="animate-pulse inline-flex justify-center rounded-lg text-sm font-semibold py-2.5 px-4 bg-slate-900 text-white hover:bg-slate-700 -my-2.5 ml-8"
-                        onclick="window.open('https://my-portfolio-ionicthor.vercel.app/assets/Resume.pdf')"
+                        // onClick="window.open('https://my-portfolio-ionicthor.vercel.app/assets/Resume.pdf')"
                     >
                         <span>
                             resume <span aria-hidden="true">
-                                {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                                {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-download" viewBox="0 0 16 16">
                                     <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
                                     <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
                                 </svg> */}
