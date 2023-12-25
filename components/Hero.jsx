@@ -23,7 +23,7 @@ const Hero = () => {
                 </p>
                 <div className="col-start-1 row-start-4 mt-10 flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                     <a
-                        className="transition duration-150 ease-in-out flex items-center pointer-events-auto ml-8 rounded-md bg-gradient-to-r from-blue-600 via-sky-400 to-sky-200 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-gradient-to-r hover:from-sky-200 hover:via-sky-400 hover:to-blue-600 hover:transform hover:-translate-y-1 hover:scale-110"
+                        className="inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-slate-900 text-slate-200 ring-1 ring-slate-900/10 hover:bg-slate-200 hover:text-slate-900 hover:bg-white/25 hover:ring-slate-900/15 "
                         target="_blank"
                         href="https://www.linkedin.com/in/rohitghosh07/"
                     >
@@ -178,7 +178,7 @@ const Hero = () => {
                                         <div className="h-2 w-1/3 flex-none rounded-l-full rounded-r-[1px] bg-indigo-600"></div>
                                         <div className="-my-[0.3125rem] ml-0.5 h-[1.125rem] w-1 rounded-full bg-indigo-600"></div>
                                     </div>
-                                    <div className="ml-4">55:43</div>
+                                    <div className="ml-4">00:09</div>
                                     <svg className="ml-6 h-6 w-6 flex-none" fill="none">
                                         <path
                                             d="M14 5 9 9H6a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h3l5 4V5Z"

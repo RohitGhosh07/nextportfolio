@@ -2,7 +2,7 @@ const Nav = () => {
     return (
         <nav
             aria-label="Global"
-            className="fixed top-0 left-0 right-0 z-50 bg-opacity-75 backdrop-filter backdrop-blur-lg px-4 sm:px-6 lg:px-8 mx-auto max-w-container "
+            className="fixed top-0 left-0 right-0 z-50 bg-opacity-75 backdrop-filter backdrop-blur-sm px-2 sm:px-6 lg:px-8 mx-auto max-w-container "
         >
             <div className="relative flex items-center py-[2.125rem]">
                 <a className="flex-none text-slate-900" href="/">
@@ -24,7 +24,7 @@ const Nav = () => {
                             clipRule="evenodd"
                         ></path>
                     </svg>
-                    <span className="font-semibold">this </span>
+                    <span className="font-semibold">previous portfolio </span>
                     <svg
                         width="2"
                         height="2"
@@ -34,9 +34,9 @@ const Nav = () => {
                         <circle cx="1" cy="1" r="1"></circle>
                     </svg>
                     <span className="font-medium">
-                        <span className="md:hidden">New agency template</span>
+                        <span className="md:hidden">Previous portfolio</span>
                         <span className="hidden md:inline">
-                            website is made by nextjs & talwind
+                            website is made by html & css
                         </span>
                     </span>
                     <svg
