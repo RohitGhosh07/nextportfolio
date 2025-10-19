@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Personal Portfolio Website
 
-## Getting Started
+A modern, responsive portfolio website built with Next.js 14, React 18, and Tailwind CSS. This project showcases my professional work, skills, and projects in an elegant and user-friendly interface.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Modern UI/UX with Next.js 14
+- Responsive design using Tailwind CSS
+- Dynamic project showcase
+- Skills section
+- Navigation with smooth scrolling
+- Contact information
+- Professional footer
+
+## 🛠️ Built With
+
+- [Next.js 14](https://nextjs.org/) - React framework for production
+- [React 18](https://reactjs.org/) - JavaScript library for user interfaces
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Styled Components](https://styled-components.com/) - For component-level styling
+- [React Audio Player](https://www.npmjs.com/package/react-audio-player) - For audio integration
+
+## 🚦 Getting Started
+
+### Prerequisites
+
+- Node.js 18.x or later
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/RohitGhosh07/nextportfolio.git
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Run the development server
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+
+## 📁 Project Structure
+
+```
+nextportfolio/
+├── app/                  # Next.js app directory
+│   ├── layout.jsx       # Root layout component
+│   └── page.jsx         # Home page component
+├── components/          # React components
+│   ├── Footer.jsx
+│   ├── Hero.jsx
+│   ├── Nav.jsx
+│   ├── Projects.jsx
+│   └── Skills.jsx
+├── styles/             # Global styles
+└── assets/            # Static assets
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Available Scripts
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- `npm run dev` - Runs the development server
+- `npm run build` - Builds the app for production
+- `npm start` - Runs the built app in production mode
+- `npm run lint` - Runs ESLint for code quality
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🚀 Deployment
 
-## Learn More
+This project is configured for easy deployment on Vercel. For other platforms, make sure to:
 
-To learn more about Next.js, take a look at the following resources:
+1. Build the project using `npm run build`
+2. Start the server using `npm start`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Deploy on Vercel
+## 👤 Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Rohit Ghosh**
+- GitHub: [@RohitGhosh07](https://github.com/RohitGhosh07)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/RohitGhosh07/nextportfolio/issues).
